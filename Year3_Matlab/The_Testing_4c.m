@@ -1,0 +1,15 @@
+%x=cos(pi*t);
+t=0:0.01:8;
+x=cos(pi*t);
+subplot(2,2,1);
+plot(t,x);
+xlabel('x-axsis');
+ylabel('y-axis');
+title('Unit Ramp01');
+%y=cos(2*pi*t); 
+y=cos(2*pi*t);
+subplot(2,2,2);
+plot(t,y);
+xlabel('x-axsis');
+ylabel('y-axis');
+title('Unit Ramp02');
